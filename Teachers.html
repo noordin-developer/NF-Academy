@@ -3,29 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Our Faculty - NF Academy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="responsive.css">
 </head>
-<div class="bg-shape"></div>
+<body>
+
+    <div class="bg-shape"></div>
 
     <header>
         <div class="container header-inner">
             <div class="logo">
-                <div class="logo-icon"></div> <span>NF</span> Academy
+                <div class="logo-icon"></div> <span>NF</span> School
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Teachers</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="Teachers.html">Teachers</a></li>
+                    <li><a href="Contacts.html">Contact</a></li>
                 </ul>
             </nav>
             <a href="#" class="btn-cta">Apply for Admission</a>
         </div>
     </header>
 
-<body>
+    <section class="teachers-hero">
+        <div class="container">
+            <span class="label">WORLD-CLASS FACULTY</span>
+            <h1 style="font-size: 48px; font-weight: 800; margin-top: 10px;">The Architects of Future</h1>
+            <p style="color: var(--text-gray); max-width: 750px; margin: 20px auto; font-size: 16px;">Our educators are not just teachers; they are mentors, innovators, and lifelong learners. Each member of our faculty is dedicated to unlocking the potential of every child through personalized care and modern teaching techniques.</p>
+            
+            <div class="filter-container">
+                <button class="filter-btn active">All Teachers</button>
+                <button class="filter-btn">Science & IT</button>
+                <button class="filter-btn">Arts & Languages</button>
+                <button class="filter-btn">Primary Faculty</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="teachers-grid">
+            <div class="teacher-card">
+                <img src="https://images.unsplash.com/photo-1544168190-79c17527004f?q=80&w=400" alt="Teacher" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Mr. Alex Johnson</h3>
+                    <span>Senior Math Specialist</span>
+                    <p>Bringing 12+ years of experience in making complex algebraic concepts simple and fun for students.</p>
+                    <div class="social-links">
+                        <a href="#">Fb</a><a href="#">Li</a><a href="#">Tw</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teacher-card">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400" alt="Teacher" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Ms. Sarah Khan</h3>
+                    <span>English Literature Head</span>
+                    <p>A linguistics expert focused on developing communication skills and creative writing in secondary education.</p>
+                    <div class="social-links">
+                        <a href="#">Fb</a><a href="#">Li</a><a href="#">Tw</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teacher-card">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400" alt="Teacher" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Mr. Robert Wilson</h3>
+                    <span>Head of Robotics & IT</span>
+                    <p>Specializes in Full-Stack development and STEM education, guiding students through modern coding practices.</p>
+                    <div class="social-links">
+                        <a href="#">Fb</a><a href="#">Li</a><a href="#">Tw</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teacher-card">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400" alt="Teacher" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Ms. Emily Davis</h3>
+                    <span>Science Coordinator</span>
+                    <p>Expert in Physics and Chemistry research, helping students excel in lab-based practical learning.</p>
+                    <div class="social-links">
+                        <a href="#">Fb</a><a href="#">Li</a><a href="#">Tw</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teacher-card">
+                <img src="https://images.unsplash.com/photo-1580894732230-2867e69c0292?q=80&w=400" alt="Teacher" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Dr. Maria Sheikh</h3>
+                    <span>Senior Biology Faculty</span>
+                    <p>Focuses on medical sciences and environmental studies, encouraging students to think about global ecology.</p>
+                    <div class="social-links">
+                        <a href="#">Fb</a><a href="#">Li</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teacher-card">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400" alt="Teacher" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Mr. David Brown</h3>
+                    <span>Physical Education Lead</span>
+                    <p>Developing sportsmanship and physical health through professional athletic coaching and discipline.</p>
+                    <div class="social-links">
+                        <a href="#">Fb</a><a href="#">Li</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="training-section">
+            <div class="training-content">
+                <span class="label" style="background: rgba(255,255,255,0.1); color: #fff; border: none;">CONTINUOUS GROWTH</span>
+                <h2>Faculty Development Program</h2>
+                <p>We believe that a teacher must never stop learning. Every month, our faculty participates in advanced workshops regarding digital classroom management, student psychology, and the latest pedagogical trends to ensure your child gets the best education possible.</p>
+                <a href="Contacts.html" class="btn-cta" style="background: #fff; color: var(--primary);">Join Our Team</a>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="footer-grid">
@@ -78,7 +184,7 @@
             </div>
         </div>
     </footer>
-
-    
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
