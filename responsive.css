@@ -1,4 +1,4 @@
-/* =========================================
+/* /* =========================================
    1. BASE STYLES (Desktop & General)
    ========================================= */
 
@@ -195,3 +195,43 @@ nav.active + .menu-toggle .bar:nth-child(3) { transform: translateY(-8px) rotate
 
     .footer-social { justify-content: center; }
 }
+
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-hero h1 {
+        font-size: 32px !important;
+    }
+}
+
+ 
